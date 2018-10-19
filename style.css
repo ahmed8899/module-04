@@ -1,28 +1,27 @@
+
+ body {background-image:url(https://steamuserimages-a.akamaihd.net/ugc/87099228454821167/CD2E6E5AA573E9DC9A6DA6F99FA557DC817CB78B/);
+      background-size:contain;
+} 
+
 * { 
-   font-family: 'BeonRegular'; 
-   font-weight: normal; 
-   font-style: italic; 
-    color:#F5FFFA;
-	text-align: center;
+   font-family: Arial, Verdana, sans-sarif;
+    color:#000000;
+  text-align: center;
 }
-	* {
-		font-family:'';  
-   font-weight: normal; 
-   font-style: italic; 
-				color:#F5FFFA;
-				text-align: center;}
-			body 
- {background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZp4X-bXgodouK-UVHRozBHb_wg6ryP86H_bUvkN9dywnszx8Fbg)
-              } 
+   
+    body {
+    width: 90%;
+    margin: 0 auto;}
+      #content {
+    overflow: auto;}
 
+   #nav, #feature,  #footer {
+	margin: 1%;}
 
-body {
-				width: 90%;
-				margin: 0 auto;}
-			#content {
-				overflow: auto;}
-			#nav, #feature, #footer {
-				margin: 1%;}
+h1{
+  color: 	#00008B;
+}
+				
 			.column1, .column2, .column3 {
 				width: 31.3%;
 				float: left;
@@ -33,7 +32,7 @@ body {
 				display: inline;
 				padding: 0.5em;}
 			#nav, #footer {
-				background-color:	#DAA520;
+				background-color:	#FFEFD5;
 				padding: 0.5em 0;}
 			#feature, .article {
               height: 10em;
@@ -41,19 +40,23 @@ body {
               background-color:MediumSeaGreen ;
 }
 .column1 {
-  background-color:#DC143C;
+  background-color:#00FFFF;
 }
  .column2 {
-  background-color:	#00FA9A;
+  background-color:#00FFFF;
 }
  .column3 {
-  background-color:#EEE8AA;
+  background-color:#00FFFF;
+}
+h2, h1, a{
+  font-family: 'WaltographRegular';
+  font-weight: normal;
+  font-style: normal;
 }
 #feature {
-  background-color:#F4A460;
-  background-image: url("https://tourismkit.com/wp-content/uploads/2016/01/The-clock-tower-in-the-background.png");
+  background-color:black;
+  background-image: url("https://s-ec.bstatic.com/images/hotel/max1280x900/832/83237765.jpg");
   background-size:contain;
-  background-position:right;
+  background-position:center;
   background-repeat:no-repeat;
 }
- 
